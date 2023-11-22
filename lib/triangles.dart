@@ -25,7 +25,7 @@ bool isIsosceles(double a, double b, double c) {
   // Check for two equal sides, not allowing equilateral triangles
   bool twoSidesEqual =
       (a == b && b != c) || (a == c && c != b) || (b == c && c != a);
-  return twoSidesEqual && !(a == b && b == c);
+return twoSidesEqual && !(a == b && b == c);
 }
 
 
